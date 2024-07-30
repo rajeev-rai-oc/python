@@ -1,3 +1,4 @@
+'''
 #First python code
 print("Hello World!")
 
@@ -75,3 +76,52 @@ def func(x):
         i+=1
 
 func(x)
+'''
+
+
+# use of list, tuple, set and dictionary
+
+# Lists
+l = []
+
+# Adding Element into list
+l.append(1)
+l.append(2)
+print("Adding 1 and 2 in list", l)
+
+# Popping Elements from list
+l.pop()
+print("Popped one element from list", l)
+print()
+
+# Set
+s = set()
+
+# Adding element into set
+s.add(1)
+s.add(2)
+print("Adding 1 and 2 in set", s)
+
+# Removing element from set
+s.remove(1)
+print("Removing 1 from set", s)
+print()
+
+# Tuple
+t = tuple(l)
+
+# Tuples are immutable
+print("Tuple", t)
+print()
+
+# Dictionary
+d = {}
+
+# Adding the key value pair
+d[1] = "One"
+d[2] = "Two"
+print("Dictionary", d)
+
+# Removing key-value pair
+del d[1]
+print("Dictionary", d)
