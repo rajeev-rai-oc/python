@@ -1,6 +1,4 @@
-
 #in Membership operator
-# initialized some sequences
 list1 = [1, 2, 3, 4, 5]
 str1 = "Hello World"
 set1 = {1, 2, 3, 4, 5}
@@ -55,3 +53,22 @@ lst2 = [1, 2, 3]
 # using 'is' and '==' operators
 print(lst1 is lst2)
 print(lst1 == lst2)
+
+
+#switch case
+def runMatch():
+    num = int(input("Enter a number between 1 and 6: "))
+    
+    # match case
+    match num:
+        case 1 | 2:
+            print("One or Two")
+        case 3 | 4:
+            print("Three or Four")
+        case 5 | 6:
+            print("Five or Six")
+        case _:
+            print("Number not between 1 and 6")
+            
+runMatch()
+
