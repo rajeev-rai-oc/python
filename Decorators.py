@@ -86,5 +86,5 @@ def num():
 def num2():
     return 10
   
-print(num()) 
-print(num2())
+print(num()) #decor1(decor(num))
+print(num2())#decor(decor1(num))
